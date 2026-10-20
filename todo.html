@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 5 - To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Part 1</a>
+    <a href="dom.html">Part 2</a>
+    <a href="events.html">Part 3</a>
+    <a href="todo.html">Part 4</a>
+  </nav>
+
+  <div class="container">
+    <div class="todo-layout">
+
+      <div class="todo-column">
+        <h2>To-do list</h2>
+        <div id="todoContainer">
+        </div>
+      </div>
+
+      <div class="todo-column">
+        <h2>Add new task</h2>
+        <div class="todo-form">
+          <label>* Title</label>
+          <input type="text" id="taskTitle" placeholder="Task title">
+
+          <label>* Description</label>
+          <textarea id="taskDesc" placeholder="Complete assignment on time"></textarea>
+
+          <button id="addTaskBtn" class="btn-add-task">Add task</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
