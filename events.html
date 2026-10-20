@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 5 - Part 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Part 1</a>
+    <a href="dom.html">Part 2</a>
+    <a href="events.html">Part 3</a>
+  </nav>
+
+  <div class="container">
+    <h2>Part 3: Events</h2>
+
+    <div class="task-box">
+      <h3>Task 5: Mouse Events (mouseover / mouseout)</h3>
+      <p>Hover your cursor over the box:</p>
+      <div id="colorBox">Hover over me!</div>
+    </div>
+
+    <div class="task-box">
+      <h3>Task 6: Keyboard Events</h3>
+      <input type="text" id="liveInput" placeholder="Type something here..." style="width: 100%;">
+      <p><b>Real-time output:</b> <span id="liveOutput" style="color: #4344f6;"></span></p>
+    </div>
+
+    <div class="task-box">
+      <h3>Task 7: Simple Calculator</h3>
+      <input type="number" id="num1" placeholder="First number">
+      <input type="number" id="num2" placeholder="Second number">
+      <br>
+      <button onclick="calc('+')">+</button>
+      <button onclick="calc('-')">-</button>
+      <button onclick="calc('*')">*</button>
+      <button onclick="calc('/')">/</button>
+      <h4>Result: <span id="calcResult">0</span></h4>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
