@@ -3,7 +3,7 @@
 
 **Student:** Yertore Omirtayev
 **Group:** SE-2530
-**Live Demo:** Insert your GitHub Pages or Netlify link here
+**Live Demo:** (https://erekenoob.github.io/ASSIGNMENT5_WEB/)
 
 ## About the Project
 This repository contains my solution for Assignment #5. The main goal of this work was to practice basic JavaScript, learn how to manipulate HTML/CSS through the DOM, work with browser events, and build a simple To-Do list app.
